@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		5832A3BE2092BA1000203BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832A3BD2092BA1000203BC5 /* AppDelegate.swift */; };
 		5832A3C02092BA1000203BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832A3BF2092BA1000203BC5 /* ViewController.swift */; };
-		5832A3C32092BA1000203BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5832A3C12092BA1000203BC5 /* Main.storyboard */; };
 		5832A3C52092BA1100203BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5832A3C42092BA1100203BC5 /* Assets.xcassets */; };
 		5832A3C82092BA1100203BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5832A3C62092BA1100203BC5 /* LaunchScreen.storyboard */; };
+		58B248D82093A618002622B2 /* SwippingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B248D72093A618002622B2 /* SwippingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5832A3BA2092BA1000203BC5 /* PresentationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5832A3BD2092BA1000203BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5832A3BF2092BA1000203BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5832A3C22092BA1000203BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5832A3C42092BA1100203BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5832A3C72092BA1100203BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5832A3C92092BA1100203BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B248D72093A618002622B2 /* SwippingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				5832A3BD2092BA1000203BC5 /* AppDelegate.swift */,
 				5832A3BF2092BA1000203BC5 /* ViewController.swift */,
-				5832A3C12092BA1000203BC5 /* Main.storyboard */,
 				5832A3C42092BA1100203BC5 /* Assets.xcassets */,
 				5832A3C62092BA1100203BC5 /* LaunchScreen.storyboard */,
 				5832A3C92092BA1100203BC5 /* Info.plist */,
+				58B248D72093A618002622B2 /* SwippingController.swift */,
 			);
 			path = PresentationController;
 			sourceTree = "<group>";
@@ -124,7 +124,6 @@
 			files = (
 				5832A3C82092BA1100203BC5 /* LaunchScreen.storyboard in Resources */,
 				5832A3C52092BA1100203BC5 /* Assets.xcassets in Resources */,
-				5832A3C32092BA1000203BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5832A3C02092BA1000203BC5 /* ViewController.swift in Sources */,
+				58B248D82093A618002622B2 /* SwippingController.swift in Sources */,
 				5832A3BE2092BA1000203BC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5832A3C12092BA1000203BC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5832A3C22092BA1000203BC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5832A3C62092BA1100203BC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
